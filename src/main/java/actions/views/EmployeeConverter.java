@@ -86,7 +86,7 @@ public class EmployeeConverter {
      * @param e DTOモデル（コピー先）
      * @param ev Viewモデル（コピー元）
      */
-    public static void copyViewModel(Employee e,EmployeeView ev) {
+    public static void copyViewToModel(Employee e,EmployeeView ev) {
         e.setId(ev.getId());
         e.setCode(ev.getCode());
         e.setName(ev.getName());
