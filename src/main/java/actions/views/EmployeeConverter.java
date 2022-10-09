@@ -91,10 +91,10 @@ public class EmployeeConverter {
         e.setCode(ev.getCode());
         e.setName(ev.getName());
         e.setPassword(ev.getPassword());
-        e.setAdminFlag(e.getAdminFlag());
-        e.setCreatedAt(e.getCreatedAt());
-        e.setUpdatedAt(e.getUpdatedAt());
-        e.setDeleteFlag(e.getDeleteFlag());
+        e.setAdminFlag(ev.getAdminFlag());
+        e.setCreatedAt(ev.getCreatedAt());
+        e.setUpdatedAt(ev.getUpdatedAt());
+        e.setDeleteFlag(ev.getDeleteFlag());
     }
 
 
